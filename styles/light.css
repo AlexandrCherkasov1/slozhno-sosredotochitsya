@@ -27,19 +27,19 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-	--background-image: url(../images/cover-image-light.png);
-	--background-color: #FFF1F7;
-	--accent-color: #FF0070;
-	--header-text-color: #FFC2E6;
-	--header-title-shadow: #FF0070;
-	--header-title-shadow-s: #FF8DCB;
-	--rec-visibility: hidden;
-	--header-menu-color: #353430;
-	--header-menu-color-hover: rgba(50, 49, 45, 0.4);
-	--title-color: #000028;
-	--title-decor-color: #FF8DCB;
-	--content-title-color: #353430;
-	--text-color: #353430;
-	--decorated-zone-color: #353430; 
+	  --background-image: url(../images/cover-image-light.png);
+	  --background-color: #FFF1F7;
+	  --accent-color: #FF0070;
+	  --header-text-color: #FFC2E6;
+	  --header-title-shadow: #FF0070;
+	  --header-title-shadow-s: #FF8DCB;
+	  --rec-visibility: hidden;
+	  --header-menu-color: #353430;
+	  --header-menu-color-hover: rgba(50, 49, 45, 0.4);
+	  --title-color: #000028;
+	  --title-decor-color: #FF8DCB;
+	  --content-title-color: #353430;
+	  --text-color: #353430;
+	  --decorated-zone-color: #353430;
   }
 }
