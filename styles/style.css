@@ -4,7 +4,7 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-image: var(--background-image);
   background-color: var(--background-color, #000028);
-  background-position: fixed;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -63,6 +63,7 @@
   text-transform: lowercase;
   padding: 3px 13px;
   border: none;
+  transition: 1.5s; /* честно, не получается нормально разобраться с этим. мне кажется, не так это должно быть исполнено */
 }
 
 .header__theme-menu-button_active {
@@ -80,8 +81,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  text-decoration: underline;
-  text-underline-offset: 5px;
+  border-block-end: 1px solid var(--header-menu-color, #FF0070);
 }
 
 .header__title {
@@ -276,7 +276,7 @@
   .header__theme-menu-list {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 12px;
   }
   .title-shadow {
 	text-shadow: 4px 4px 0px var(--header-title-shadow-s, #FF0070);
@@ -357,6 +357,9 @@
   }
   .image-5 {
 	  grid-column-end: span 1;
+  }
+  .footer__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); 
   }
   .footer-shadow {
     text-shadow: 2px 2px 0px var(--header-title-shadow-s, #FF0070);
